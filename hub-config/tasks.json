@@ -20,7 +20,7 @@
                             ]
                         },
                         "target": {
-                            "required": ["ILI incidence"],
+                            "required": ["ARI incidence"],
                             "optional": null
                         },
                         "target_end_date": {
@@ -125,13 +125,13 @@
                     },
                     "target_metadata": [
                         {
-                           "target_id": "ILI incidence",
-                           "target_name": "Weekly incidence for Influenza like illness",
+                           "target_id": "ARI incidence",
+                           "target_name": "Weekly incidence for Acute Respiratory Infection",
                            "target_units": "cases per 100,000 population",
                            "target_keys": {
-                               "target": "ILI incidence"
+                               "target": "ARI incidence"
                            },
-                           "description": "This target represents the count of new ILI cases per 100,000 in the week ending on the date [horizon] weeks after the reference_date",
+                           "description": "This target represents the count of new ARI cases per 100,000 in the week ending on the date [horizon] weeks after the reference_date",
                            "target_type": "continuous",
                            "is_step_ahead": true,
                            "time_unit": "week"
