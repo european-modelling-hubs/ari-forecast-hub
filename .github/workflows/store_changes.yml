@@ -77,12 +77,3 @@ jobs:
           message: "Update data storage"
           default_author: github_actions
           push: true
-    # - name: push 
-    #   run: |
-    #     cd ./repo/
-    #     git config --local user.name M-7th
-    #     git config --local user.email paolo.milano@gmail.com
-    #     git add .
-    #     git commit -m "generated" --allow-empty
-    #     git push
-            
