@@ -2,14 +2,15 @@ name: Forecast Upload
 
 on:
   # scheduled submission every Wednesday at 1.30 a.m. 
-  schedule:
-    - cron: '30 5 * * 3'  
+  # schedule:
+  #   - cron: '30 5 * * 3'  
 
   workflow_dispatch:
 
   
 jobs:
   scheduled-submit:
+    if: github.repository_owner == 'european-modelling-hubs'
     runs-on: ubuntu-latest
     
     steps:
@@ -30,7 +31,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          repository: 'european-modelling-hubs/flu-forecast-hub'
+          repository: 'european-modelling-hubs/ari-forecast-hub'
           ref: 'main'
           path: './repo/'
           
@@ -66,5 +67,4 @@ jobs:
         run: |
           echo ">>> Calling custom webhook"
           pip install requests
-          echo ">>> Pip installed" 
           python ./tools/.github/scripts/utils/workflow_webhook.py
