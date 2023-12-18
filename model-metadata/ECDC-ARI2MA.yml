@@ -1,0 +1,10 @@
+team_name: European Centre for Disease Prevention and Control
+model_name: ARIMA model with seasonality
+team_abbr: ECDC
+model_abbr: ARI2MA
+model_contributors:
+  - name: Lydia Champezou
+    affiliation: European Centre for Disease Prevention and Control
+    email: lydia.champezou@ecdc.europa.eu
+team_model_designation: primary
+methods: An ARIMA model with seasonality and with sqrt transformed data
