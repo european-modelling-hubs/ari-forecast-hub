@@ -7,5 +7,20 @@
                 "model-output/ECDC-ARI2MA/f"
             ]
         }
+    ],
+    "model": [
+        {
+            "model": "output",
+            "changes": [
+                "model-output/2023-12-20-ECDC-ARI2MA.csv"
+            ]
+        },
+        {
+            "model": "ARI2MA",
+            "changes": [
+                "model-output/ECDC-ARI2MA/2023-12-20-ECDC-ARI2MA.csv",
+                "model-output/ECDC-ARI2MA/f"
+            ]
+        }
     ]
 }
