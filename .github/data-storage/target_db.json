@@ -1,5 +1,5 @@
 {
-    "ARI_incidence": {
+    "ARI incidence": {
         "changes": [
             "target-data/ERVISS/snapshots/2023-12-08-ARI_incidence.csv",
             "target-data/ERVISS/snapshots/2023-12-15-ARI_incidence.csv"
