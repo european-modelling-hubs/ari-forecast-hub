@@ -2,8 +2,8 @@ name: Truth Upload
 
 on:
   # scheduled submission every Wednesday at 1.30 a.m. 
-  # schedule:
-  #   - cron: '30 5 * * 3'  
+  schedule:
+    - cron: '00 09 * * 3'  
 
   workflow_dispatch:
 
