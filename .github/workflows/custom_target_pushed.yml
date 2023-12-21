@@ -7,6 +7,8 @@ on:
       - 'target-data/FluID/*'
       - 'target-data/Respivirnet/*'
       - '!**README**'
+      - '!**.md'
+      - '!**.MD'
 
 jobs:
   custom-changes:
