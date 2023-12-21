@@ -3,7 +3,7 @@ model_name: Generalized Logistic Model for ARI
 team_abbr: ISI
 model_abbr: GenLogModelAri
 model_contributors:
-  - name: Nicolo Gozzi
+  - name: Nicolò Gozzi
     affiliation: ISI Foundation
     email: nicolo.gozzi@isi.it
 team_model_designation: secondary
