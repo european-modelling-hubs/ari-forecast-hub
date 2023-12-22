@@ -1,1 +1,10 @@
-{}
+{
+    "ISI": [
+        {
+            "model": "GenLogModelAri",
+            "changes": [
+                "model-output/ISI-GenLogModelAri/2023-12-27-ISI-GenLogModelAri.csv"
+            ]
+        }
+    ]
+}
