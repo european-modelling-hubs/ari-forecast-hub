@@ -12,5 +12,13 @@
                 "model-output/ISI-AriABCaster/2023-12-27-ISI-AriABCaster.csv"
             ]
         }
+    ],
+    "ECDC": [
+        {
+            "model": "ARI2MA",
+            "changes": [
+                "model-output/ECDC-ARI2MA/2023-12-27-ECDC-ARI2MA.csv"
+            ]
+        }
     ]
 }
