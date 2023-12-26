@@ -25,6 +25,12 @@
             "changes": [
                 "model-output/ECDC-norrsken_green/2023-12-27-ECDC-norrsken_green.csv"
             ]
+        },
+        {
+            "model": "norrsken_blue",
+            "changes": [
+                "model-output/ECDC-norrsken_blue/2023-12-27-ECDC-norrsken_blue.csv"
+            ]
         }
     ]
 }
