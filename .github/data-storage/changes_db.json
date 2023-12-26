@@ -19,6 +19,12 @@
             "changes": [
                 "model-output/ECDC-ARI2MA/2023-12-27-ECDC-ARI2MA.csv"
             ]
+        },
+        {
+            "model": "norrsken_green",
+            "changes": [
+                "model-output/ECDC-norrsken_green/2023-12-27-ECDC-norrsken_green.csv"
+            ]
         }
     ]
 }
