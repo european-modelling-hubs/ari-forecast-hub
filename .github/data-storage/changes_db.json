@@ -5,6 +5,18 @@
             "changes": [
                 "model-output/ECDC-ARI2MA/2024-01-03-ECDC-ARI2MA.csv"
             ]
+        },
+        {
+            "model": "norrsken_blue",
+            "changes": [
+                "model-output/ECDC-norrsken_blue/2024-01-03-ECDC-norrsken_blue.csv"
+            ]
+        },
+        {
+            "model": "norrsken_green",
+            "changes": [
+                "model-output/ECDC-norrsken_green/2024-01-03-ECDC-norrsken_green.csv"
+            ]
         }
     ],
     "ISI": [
