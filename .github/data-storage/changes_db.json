@@ -1,1 +1,10 @@
-{}
+{
+    "ISI": [
+        {
+            "model": "AriABCaster",
+            "changes": [
+                "model-output/ISI-AriABCaster/2024-01-10-ISI-AriABCaster.csv"
+            ]
+        }
+    ]
+}
