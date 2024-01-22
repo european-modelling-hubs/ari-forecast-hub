@@ -1,29 +1,9 @@
 {
-    "ISI": [
-        {
-            "model": "AriABCaster",
-            "changes": [
-                "model-output/ISI-AriABCaster/2024-01-17-ISI-AriABCaster.csv"
-            ]
-        },
-        {
-            "model": "GenLogModelAri",
-            "changes": [
-                "model-output/ISI-GenLogModelAri/2024-01-17-ISI-GenLogModelAri.csv"
-            ]
-        }
-    ],
     "ECDC": [
         {
-            "model": "norrsken_blue",
+            "model": "ARI2MA",
             "changes": [
-                "model-output/ECDC-norrsken_blue/2024-01-17-ECDC-norrsken_blue.csv"
-            ]
-        },
-        {
-            "model": "norrsken_green",
-            "changes": [
-                "model-output/ECDC-norrsken_green/2024-01-17-ECDC-norrsken_green.csv"
+                "model-output/ECDC-ARI2MA/2024-01-24-ECDC-ARI2MA.csv"
             ]
         }
     ]
