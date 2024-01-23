@@ -14,5 +14,13 @@
                 "model-output/fjordhest-ensemble/2024-01-24-fjordhest-ensemble.csv"
             ]
         }
+    ],
+    "ISI": [
+        {
+            "model": "AriABCaster",
+            "changes": [
+                "model-output/ISI-AriABCaster/2024-01-24-ISI-AriABCaster.csv"
+            ]
+        }
     ]
 }
