@@ -1,1 +1,24 @@
-{}
+{
+  "ECDC": [
+    {
+        "model": "ARI2MA",
+        "changes": [
+            "model-output/ECDC-ARI2MA/2024-01-31-ECDC-ARI2MA.csv"
+        ]
+    }
+  ],
+  "ISI": [
+      {
+          "model": "GenLogModelAri",
+          "changes": [
+              "model-output/ISI-GenLogModelAri/2024-01-31-ISI-GenLogModelAri.csv"
+          ]
+      },
+      {
+          "model": "AriABCaster",
+          "changes": [
+              "model-output/ISI-AriABCaster/2024-01-31-ISI-AriABCaster.csv"
+          ]
+      }
+  ]
+}
