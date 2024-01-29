@@ -13,6 +13,12 @@
             "changes": [
                 "model-output/ISI-GenLogModelAri/2024-01-31-ISI-GenLogModelAri.csv"
             ]
+        },
+        {
+            "model": "AriABCaster",
+            "changes": [
+                "model-output/ISI-AriABCaster/2024-01-31-ISI-AriABCaster.csv"
+            ]
         }
     ]
 }
