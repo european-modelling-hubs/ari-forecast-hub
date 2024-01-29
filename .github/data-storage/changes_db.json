@@ -1,23 +1,9 @@
 {
-    "ECDC": [
+    "respicast": [
         {
-            "model": "ARI2MA",
+            "model": "quantileBaseline",
             "changes": [
-                "model-output/ECDC-ARI2MA/2024-01-31-ECDC-ARI2MA.csv"
-            ]
-        }
-    ],
-    "ISI": [
-        {
-            "model": "GenLogModelAri",
-            "changes": [
-                "model-output/ISI-GenLogModelAri/2024-01-31-ISI-GenLogModelAri.csv"
-            ]
-        },
-        {
-            "model": "AriABCaster",
-            "changes": [
-                "model-output/ISI-AriABCaster/2024-01-31-ISI-AriABCaster.csv"
+                "model-output/respicast-quantileBaseline/2023-12-27-respicast-quantileBaseline.csv"
             ]
         }
     ]
