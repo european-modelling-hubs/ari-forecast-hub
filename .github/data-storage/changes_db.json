@@ -1,1 +1,10 @@
-{}
+{
+    "ECDC": [
+        {
+            "model": "ARI2MA",
+            "changes": [
+                "model-output/ECDC-ARI2MA/2024-01-31-ECDC-ARI2MA.csv"
+            ]
+        }
+    ]
+}
