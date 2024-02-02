@@ -35,7 +35,7 @@ jobs:
       uses: actions/checkout@v3
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        repository: 'european-modelling-hubs/flu-forecast-hub'
+        repository: 'european-modelling-hubs/ari-forecast-hub'
         ref: 'main'
         path: './repo/'
 
@@ -74,7 +74,7 @@ jobs:
       id: generate_scoring
       run: |
         # call R script from tools
-        Rscript ./tools/R-code/forecast_evaluation.R --hub_path "./repo" --truth_file_name "latest-ILI_incidence.csv" --subfolders "ERVISS,FluID"
+        Rscript ./tools/R-code/forecast_evaluation.R --hub_path "./repo" --truth_file_name "latest-ARI_incidence.csv" --subfolders "ERVISS"
 
     # Do the python manipulations and produce an output file (scoring_file)
     # ------------------------------------------------------------------------
