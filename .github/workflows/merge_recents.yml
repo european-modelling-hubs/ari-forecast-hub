@@ -3,8 +3,8 @@ name: MergeRecents
 on:
 
   workflow_dispatch:
-  # schedule:
-  #   - cron: "00 01 * * 4"
+  schedule:
+    - cron: "00 19 * * 5"
 
     
 jobs:
