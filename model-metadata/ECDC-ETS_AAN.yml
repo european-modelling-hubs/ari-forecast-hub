@@ -1,0 +1,10 @@
+team_name: European Centre for Disease Prevention and Control 
+model_name: ETS AAN model. 
+team_abbr: ECDC
+model_abbr: ETS_AAN
+model_contributors:
+  - name: Ayleen Burt  
+    affiliation: European Centre for Disease Prevention and Control. 
+    email: ayleen.burt@ecdc.europa.eu 
+team_model_designation: primary
+methods: ETS model Additive error and trend, no seasonality.
