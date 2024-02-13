@@ -25,6 +25,13 @@
             "changes": [
                 "model-output/ECDC-ARI2MA/2024-02-14-ECDC-ARI2MA.csv"
             ]
+        },
+        {
+            "model": "ETS_AAN",
+            "changes": [
+                "model-output/ECDC-ETS_AAN/2024-02-14-ECDC-ETS_AAN.csv",
+                "model-output/ECDC-ETS_AAN/placeholder.txt"
+            ]
         }
     ]
 }
