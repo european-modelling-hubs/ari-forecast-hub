@@ -3,13 +3,19 @@
         {
             "model": "AriABCaster",
             "changes": [
-                "model-output/ISI-AriABCaster/2024-02-07-ISI-AriABCaster.csv"
+                "model-output/ISI-AriABCaster/2024-02-14-ISI-AriABCaster.csv"
             ]
         },
         {
             "model": "GenLogModelAri",
             "changes": [
-                "model-output/ISI-GenLogModelAri/2024-02-07-ISI-GenLogModelAri.csv"
+                "model-output/ISI-GenLogModelAri/2024-02-14-ISI-GenLogModelAri.csv"
+            ]
+        },
+        {
+            "model": "EpiNowARI",
+            "changes": [
+                "model-output/ISI-EpiNowARI/2024-02-14-ISI-EpiNowARI.csv"
             ]
         }
     ],
@@ -17,7 +23,14 @@
         {
             "model": "ARI2MA",
             "changes": [
-                "model-output/ECDC-ARI2MA/2024-02-07-ECDC-ARI2MA.csv"
+                "model-output/ECDC-ARI2MA/2024-02-14-ECDC-ARI2MA.csv"
+            ]
+        },
+        {
+            "model": "ETS_AAN",
+            "changes": [
+                "model-output/ECDC-ETS_AAN/2024-02-14-ECDC-ETS_AAN.csv",
+                "model-output/ECDC-ETS_AAN/placeholder.txt"
             ]
         }
     ]
