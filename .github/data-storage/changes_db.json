@@ -33,5 +33,13 @@
                 "model-output/ECDC-ETS_AAN/placeholder.txt"
             ]
         }
+    ],
+    "fjordhest": [
+        {
+            "model": "ensemble",
+            "changes": [
+                "model-output/fjordhest-ensemble/2024-02-14-fjordhest-ensemble.csv"
+            ]
+        }
     ]
 }
