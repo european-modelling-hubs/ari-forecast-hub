@@ -1,10 +1,10 @@
 team_name: European Centre for Disease Prevention and Control 
-model_name: ETS AAN model. 
+model_name: auto ETS model. 
 team_abbr: ECDC
-model_abbr: ETS_AAN
+model_abbr: ETS
 model_contributors:
   - name: Ayleen Burt  
     affiliation: European Centre for Disease Prevention and Control. 
     email: ayleen.burt@ecdc.europa.eu 
 team_model_designation: primary
-methods: ETS model Additive error and trend, no seasonality.
+methods: R automatically selects the best ETS model based on the Akaike Information Criterion (AIC) or the Bayesian Information Criterion (BIC)
