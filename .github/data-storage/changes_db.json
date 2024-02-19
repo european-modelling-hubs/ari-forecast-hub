@@ -5,6 +5,12 @@
             "changes": [
                 "model-output/ECDC-ETS_AAN/placeholder.txt"
             ]
+        },
+        {
+            "model": "ARI2MA",
+            "changes": [
+                "model-output/ECDC-ARI2MA/2024-02-21-ECDC-ARI2MA.csv"
+            ]
         }
     ]
 }
