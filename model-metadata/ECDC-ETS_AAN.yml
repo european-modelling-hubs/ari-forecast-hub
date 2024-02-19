@@ -1,5 +1,5 @@
 team_name: European Centre for Disease Prevention and Control 
-model_name: ETS model. 
+model_name: ETS model ANN. 
 team_abbr: ECDC
 model_abbr: ETS
 model_contributors:
