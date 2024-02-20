@@ -12,5 +12,13 @@
                 "model-output/ECDC-ARI2MA/2024-02-21-ECDC-ARI2MA.csv"
             ]
         }
+    ],
+    "ISI": [
+        {
+            "model": "EpiNowARI",
+            "changes": [
+                "model-output/ISI-EpiNowARI/2024-02-21-ISI-EpiNowARI.csv"
+            ]
+        }
     ]
 }
