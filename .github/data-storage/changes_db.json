@@ -1,44 +1,41 @@
 {
+    "ECDC": [
+        {
+            "model": "ETS_AAN",
+            "changes": [
+                "model-output/ECDC-ETS_AAN/placeholder.txt"
+            ]
+        },
+        {
+            "model": "ARI2MA",
+            "changes": [
+                "model-output/ECDC-ARI2MA/2024-02-21-ECDC-ARI2MA.csv"
+            ]
+        },
+        {
+            "model": "ETS_Auto",
+            "changes": [
+                "model-output/ECDC-ETS_Auto/2024-02-21-ECDC-ETS_Auto.csv"
+            ]
+        }
+    ],
     "ISI": [
+        {
+            "model": "EpiNowARI",
+            "changes": [
+                "model-output/ISI-EpiNowARI/2024-02-21-ISI-EpiNowARI.csv"
+            ]
+        },
         {
             "model": "AriABCaster",
             "changes": [
-                "model-output/ISI-AriABCaster/2024-02-14-ISI-AriABCaster.csv"
+                "model-output/ISI-AriABCaster/2024-02-21-ISI-AriABCaster.csv"
             ]
         },
         {
             "model": "GenLogModelAri",
             "changes": [
-                "model-output/ISI-GenLogModelAri/2024-02-14-ISI-GenLogModelAri.csv"
-            ]
-        },
-        {
-            "model": "EpiNowARI",
-            "changes": [
-                "model-output/ISI-EpiNowARI/2024-02-14-ISI-EpiNowARI.csv"
-            ]
-        }
-    ],
-    "ECDC": [
-        {
-            "model": "ARI2MA",
-            "changes": [
-                "model-output/ECDC-ARI2MA/2024-02-14-ECDC-ARI2MA.csv"
-            ]
-        },
-        {
-            "model": "ETS_AAN",
-            "changes": [
-                "model-output/ECDC-ETS_AAN/2024-02-14-ECDC-ETS_AAN.csv",
-                "model-output/ECDC-ETS_AAN/placeholder.txt"
-            ]
-        }
-    ],
-    "fjordhest": [
-        {
-            "model": "ensemble",
-            "changes": [
-                "model-output/fjordhest-ensemble/2024-02-14-fjordhest-ensemble.csv"
+                "model-output/ISI-GenLogModelAri/2024-02-21-ISI-GenLogModelAri.csv"
             ]
         }
     ]
