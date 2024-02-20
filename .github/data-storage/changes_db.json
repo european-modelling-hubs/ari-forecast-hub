@@ -11,6 +11,12 @@
             "changes": [
                 "model-output/ECDC-ARI2MA/2024-02-21-ECDC-ARI2MA.csv"
             ]
+        },
+        {
+            "model": "ETS_Auto",
+            "changes": [
+                "model-output/ECDC-ETS_Auto/2024-02-21-ECDC-ETS_Auto.csv"
+            ]
         }
     ],
     "ISI": [
