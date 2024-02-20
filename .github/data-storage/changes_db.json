@@ -19,6 +19,12 @@
             "changes": [
                 "model-output/ISI-EpiNowARI/2024-02-21-ISI-EpiNowARI.csv"
             ]
+        },
+        {
+            "model": "AriABCaster",
+            "changes": [
+                "model-output/ISI-AriABCaster/2024-02-21-ISI-AriABCaster.csv"
+            ]
         }
     ]
 }
