@@ -1,23 +1,15 @@
 {
-    "ISI": [
+    "ECDC": [
         {
-            "model": "AriABCaster",
+            "model": "ETS_AAN",
             "changes": [
-                "model-output/ISI-AriABCaster/2024-02-14-ISI-AriABCaster.csv"
+                "model-output/ECDC-ETS_AAN/placeholder.txt"
             ]
         },
         {
-            "model": "GenLogModelAri",
-            "changes": [
-                "model-output/ISI-GenLogModelAri/2024-02-14-ISI-GenLogModelAri.csv"
-            ]
-        }
-    ],
-    "ECDC": [
-        {
             "model": "ARI2MA",
             "changes": [
-                "model-output/ECDC-ARI2MA/2024-02-14-ECDC-ARI2MA.csv"
+                "model-output/ECDC-ARI2MA/2024-02-21-ECDC-ARI2MA.csv"
             ]
         }
     ]
