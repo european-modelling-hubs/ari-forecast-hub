@@ -56,5 +56,13 @@
                 "model-output/ISI-GenLogModelAri/2024-02-21-ISI-GenLogModelAri.csv"
             ]
         }
+    ],
+    "fjordhest": [
+        {
+            "model": "ensemble",
+            "changes": [
+                "model-output/fjordhest-ensemble/2024-02-21-fjordhest-ensemble.csv"
+            ]
+        }
     ]
 }
