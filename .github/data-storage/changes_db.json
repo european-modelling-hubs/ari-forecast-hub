@@ -1,10 +1,1 @@
-{
-    "ECDC": [
-        {
-            "model": "ETS_AAN",
-            "changes": [
-                "model-output/ECDC-ETS_AAN/placeholder.txt"
-            ]
-        }
-    ]
-}
+{}
