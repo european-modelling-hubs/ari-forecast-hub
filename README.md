@@ -7,6 +7,7 @@ During the winter season, participating teams submit weekly probabilistic foreca
 ## Quick Start
 This is a brief outline for anyone considering contributing a forecast. For a detailed guide on how to structure and submit a forecast, please read the technical [Wiki](https://github.com/european-modelling-hubs/flu-forecast-hub/wiki).
 
+[![IMAGE ALT TEXT HERE](https://github.com/european-modelling-hubs/hub-tools/blob/main/submission_tutorial_img.png)](https://www.youtube.com/watch?v=Gpyc2fr9PYw)
 
 #### Setup
 To prepare for your initial submission, consult the [Preparing to Submit](https://github.com/european-modelling-hubs/ari-forecast-hub/wiki/Preparing-to-submit) guide. This guide provides details on forking the repository, creating a team folder, and uploading a team metadata file.
