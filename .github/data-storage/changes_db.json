@@ -1,1 +1,10 @@
-{}
+{
+    "ECDC": [
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2024-02-28-ECDC-soca_simplex.csv"
+            ]
+        }
+    ]
+}
