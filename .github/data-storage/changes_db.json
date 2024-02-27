@@ -12,5 +12,13 @@
                 "model-output/ECDC-ARI2MA/2024-02-28-ECDC-ARI2MA.csv"
             ]
         }
+    ],
+    "ISI": [
+        {
+            "model": "GenLogModelAri",
+            "changes": [
+                "model-output/ISI-GenLogModelAri/2024-02-28-ISI-GenLogModelAri.csv"
+            ]
+        }
     ]
 }
