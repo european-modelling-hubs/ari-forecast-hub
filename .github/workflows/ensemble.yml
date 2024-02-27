@@ -1,8 +1,12 @@
 name: GenerateEnsemble
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "10 01 * * 4"
+  
+  workflow_run:
+    workflows: [GenerateBaseline]
+      
+    types:
+      - completed
 
 
 jobs:
