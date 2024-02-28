@@ -25,6 +25,12 @@
             "changes": [
                 "model-output/ISI-EpiNowARI/2024-02-28-ISI-EpiNowARI.csv"
             ]
+        },
+        {
+            "model": "AriABCaster",
+            "changes": [
+                "model-output/ISI-AriABCaster/2024-02-28-ISI-AriABCaster.csv"
+            ]
         }
     ],
     "fjordhest": [
