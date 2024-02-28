@@ -1,9 +1,23 @@
 {
     "ECDC": [
         {
-            "model": "ETS_AAN",
+            "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-ETS_AAN/placeholder.txt"
+                "model-output/ECDC-soca_simplex/2024-02-28-ECDC-soca_simplex.csv"
+            ]
+        },
+        {
+            "model": "ARI2MA",
+            "changes": [
+                "model-output/ECDC-ARI2MA/2024-02-28-ECDC-ARI2MA.csv"
+            ]
+        }
+    ],
+    "ISI": [
+        {
+            "model": "GenLogModelAri",
+            "changes": [
+                "model-output/ISI-GenLogModelAri/2024-02-28-ISI-GenLogModelAri.csv"
             ]
         }
     ]
