@@ -1,59 +1,29 @@
 {
     "ECDC": [
         {
-            "model": "ETS_AAN",
+            "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-ETS_AAN/placeholder.txt"
+                "model-output/ECDC-soca_simplex/2024-02-28-ECDC-soca_simplex.csv"
             ]
         },
         {
             "model": "ARI2MA",
             "changes": [
-                "model-output/ECDC-ARI2MA/2024-02-21-ECDC-ARI2MA.csv"
-            ]
-        },
-        {
-            "model": "ETS_Auto",
-            "changes": [
-                "model-output/ECDC-ETS_Auto/2024-02-21-ECDC-ETS_Auto.csv"
-            ]
-        },
-        {
-            "model": "norrsken_blue",
-            "changes": [
-                "model-output/ECDC-norrsken_blue/2024-02-21-ECDC-norrsken_blue.csv"
-            ]
-        },
-        {
-            "model": "norrsken_green",
-            "changes": [
-                "model-output/ECDC-norrsken_green/2024-02-21-ECDC-norrsken_green.csv"
-            ]
-        },
-        {
-            "model": "soca_simplex",
-            "changes": [
-                "model-output/ECDC-soca_simplex/2024-02-21-ECDC-soca_simplex.csv"
+                "model-output/ECDC-ARI2MA/2024-02-28-ECDC-ARI2MA.csv"
             ]
         }
     ],
     "ISI": [
         {
-            "model": "EpiNowARI",
-            "changes": [
-                "model-output/ISI-EpiNowARI/2024-02-21-ISI-EpiNowARI.csv"
-            ]
-        },
-        {
-            "model": "AriABCaster",
-            "changes": [
-                "model-output/ISI-AriABCaster/2024-02-21-ISI-AriABCaster.csv"
-            ]
-        },
-        {
             "model": "GenLogModelAri",
             "changes": [
-                "model-output/ISI-GenLogModelAri/2024-02-21-ISI-GenLogModelAri.csv"
+                "model-output/ISI-GenLogModelAri/2024-02-28-ISI-GenLogModelAri.csv"
+            ]
+        },
+        {
+            "model": "EpiNowARI",
+            "changes": [
+                "model-output/ISI-EpiNowARI/2024-02-28-ISI-EpiNowARI.csv"
             ]
         }
     ]
