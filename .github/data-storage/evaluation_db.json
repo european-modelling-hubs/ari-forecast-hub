@@ -1,5 +1,6 @@
 {
     "changes": [
-        "model-evaluation/snapshots/2024-02-28-forecast_scores.csv"
+        "model-evaluation/snapshots/2024-02-28-forecast_scores.csv",
+        "model-evaluation/snapshots/2024-02-21-forecast_scores.csv"
     ]
 }
