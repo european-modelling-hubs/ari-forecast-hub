@@ -1,43 +1,23 @@
 {
     "ECDC": [
         {
-            "model": "soca_simplex",
-            "changes": [
-                "model-output/ECDC-soca_simplex/2024-02-28-ECDC-soca_simplex.csv"
-            ]
-        },
-        {
             "model": "ARI2MA",
             "changes": [
-                "model-output/ECDC-ARI2MA/2024-02-28-ECDC-ARI2MA.csv"
+                "model-output/ECDC-ARI2MA/2024-03-06-ECDC-ARI2MA.csv"
             ]
         }
     ],
     "ISI": [
         {
-            "model": "GenLogModelAri",
-            "changes": [
-                "model-output/ISI-GenLogModelAri/2024-02-28-ISI-GenLogModelAri.csv"
-            ]
-        },
-        {
             "model": "EpiNowARI",
             "changes": [
-                "model-output/ISI-EpiNowARI/2024-02-28-ISI-EpiNowARI.csv"
+                "model-output/ISI-EpiNowARI/2024-03-06-ISI-EpiNowARI.csv"
             ]
         },
         {
             "model": "AriABCaster",
             "changes": [
-                "model-output/ISI-AriABCaster/2024-02-28-ISI-AriABCaster.csv"
-            ]
-        }
-    ],
-    "fjordhest": [
-        {
-            "model": "ensemble",
-            "changes": [
-                "model-output/fjordhest-ensemble/2024-02-28-fjordhest-ensemble.csv"
+                "model-output/ISI-AriABCaster/2024-03-06-ISI-AriABCaster.csv"
             ]
         }
     ]
