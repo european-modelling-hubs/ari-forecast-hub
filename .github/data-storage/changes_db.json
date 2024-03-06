@@ -1,29 +1,47 @@
 {
     "ECDC": [
         {
-            "model": "soca_simplex",
+            "model": "ARI2MA",
             "changes": [
-                "model-output/ECDC-soca_simplex/2024-02-28-ECDC-soca_simplex.csv"
+                "model-output/ECDC-ARI2MA/2024-03-06-ECDC-ARI2MA.csv"
             ]
         },
         {
-            "model": "ARI2MA",
+            "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-ARI2MA/2024-02-28-ECDC-ARI2MA.csv"
+                "model-output/ECDC-soca_simplex/2024-03-06-ECDC-soca_simplex.csv"
+            ]
+        },
+        {
+            "model": "norrsken_blue",
+            "changes": [
+                "model-output/ECDC-norrsken_blue/2024-03-06-ECDC-norrsken_blue.csv"
+            ]
+        },
+        {
+            "model": "norrsken_green",
+            "changes": [
+                "model-output/ECDC-norrsken_green/2024-03-06-ECDC-norrsken_green.csv"
             ]
         }
     ],
     "ISI": [
         {
-            "model": "GenLogModelAri",
+            "model": "EpiNowARI",
             "changes": [
-                "model-output/ISI-GenLogModelAri/2024-02-28-ISI-GenLogModelAri.csv"
+                "model-output/ISI-EpiNowARI/2024-03-06-ISI-EpiNowARI.csv"
             ]
         },
         {
-            "model": "EpiNowARI",
+            "model": "AriABCaster",
             "changes": [
-                "model-output/ISI-EpiNowARI/2024-02-28-ISI-EpiNowARI.csv"
+                "model-output/ISI-AriABCaster/2024-03-06-ISI-AriABCaster.csv"
+            ]
+        },
+        {
+            "model": "GenLogModelAri",
+            "changes": [
+                "model-output/ISI-GenLogModelAri/2024-03-06-ISI-GenLogModelAri.csv"
             ]
         }
     ]
