@@ -31,6 +31,12 @@
             "changes": [
                 "model-output/ECDC-norrsken_green/2024-03-13-ECDC-norrsken_green.csv"
             ]
+        },
+        {
+            "model": "ARI2MA",
+            "changes": [
+                "model-output/ECDC-ARI2MA/2024-03-13-ECDC-ARI2MA.csv"
+            ]
         }
     ],
     "fjordhest": [
