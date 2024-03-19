@@ -20,5 +20,13 @@
                 "model-output/fjordhest-ensemble/2024-03-20-fjordhest-ensemble.csv"
             ]
         }
+    ],
+    "ECDC": [
+        {
+            "model": "ARI2MA",
+            "changes": [
+                "model-output/ECDC-ARI2MA/2024-03-20-ECDC-ARI2MA.csv"
+            ]
+        }
     ]
 }
