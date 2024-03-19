@@ -27,6 +27,12 @@
             "changes": [
                 "model-output/ECDC-ARI2MA/2024-03-20-ECDC-ARI2MA.csv"
             ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2024-03-20-ECDC-soca_simplex.csv"
+            ]
         }
     ]
 }
