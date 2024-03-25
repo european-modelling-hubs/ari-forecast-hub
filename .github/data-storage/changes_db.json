@@ -1,16 +1,1 @@
-{
-    "ISI": [
-        {
-            "model": "AriABCaster",
-            "changes": [
-                "model-output/ISI-AriABCaster/2024-03-20-ISI-AriABCaster.csv"
-            ]
-        },
-        {
-            "model": "GenLogModelAri",
-            "changes": [
-                "model-output/ISI-GenLogModelAri/2024-03-20-ISI-GenLogModelAri.csv"
-            ]
-        }
-    ]
-}
+{}
