@@ -1,23 +1,23 @@
 {
+    "fjordhest": [
+        {
+            "model": "ensemble",
+            "changes": [
+                "model-output/fjordhest-ensemble/2024-03-27-fjordhest-ensemble.csv"
+            ]
+        }
+    ],
     "ISI": [
         {
             "model": "AriABCaster",
             "changes": [
-                "model-output/ISI-AriABCaster/2024-03-20-ISI-AriABCaster.csv"
+                "model-output/ISI-AriABCaster/2024-03-27-ISI-AriABCaster.csv"
             ]
         },
         {
             "model": "GenLogModelAri",
             "changes": [
-                "model-output/ISI-GenLogModelAri/2024-03-20-ISI-GenLogModelAri.csv"
-            ]
-        }
-    ],
-    "fjordhest": [
-        {
-            "model": "ensemble",
-            "changes": [
-                "model-output/fjordhest-ensemble/2024-03-20-fjordhest-ensemble.csv"
+                "model-output/ISI-GenLogModelAri/2024-03-27-ISI-GenLogModelAri.csv"
             ]
         }
     ],
@@ -25,7 +25,7 @@
         {
             "model": "ARI2MA",
             "changes": [
-                "model-output/ECDC-ARI2MA/2024-03-20-ECDC-ARI2MA.csv"
+                "model-output/ECDC-ARI2MA/2024-03-27-ECDC-ARI2MA.csv"
             ]
         }
     ]
