@@ -12,5 +12,13 @@
                 "model-output/ECDC-norrsken_green/2024-04-03-ECDC-norrsken_green.csv"
             ]
         }
+    ],
+    "ISI": [
+        {
+            "model": "AriABCaster",
+            "changes": [
+                "model-output/ISI-AriABCaster/2024-04-03-ISI-AriABCaster.csv"
+            ]
+        }
     ]
 }
