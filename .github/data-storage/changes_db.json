@@ -31,6 +31,12 @@
             "changes": [
                 "model-output/ISI-GenLogModelAri/2024-04-03-ISI-GenLogModelAri.csv"
             ]
+        },
+        {
+            "model": "EpiNowARI",
+            "changes": [
+                "model-output/ISI-EpiNowARI/2024-04-03-ISI-EpiNowARI.csv"
+            ]
         }
     ]
 }
