@@ -2,11 +2,11 @@ name: Scoring Upload
 
 on:
 
-  # workflow_run:
-  #   workflows: [Scoring]
+  workflow_run:
+    workflows: [Scoring]
       
-  #   types:
-  #     - completed    
+    types:
+      - completed    
 
   # needed to trigger manually
   workflow_dispatch:
@@ -14,7 +14,7 @@ on:
   
 jobs:
   scheduled-submit:
-    #if: ${{ github.event.workflow_run.conclusion == 'success' && github.repository_owner == 'european-modelling-hubs' }}
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github.repository_owner == 'european-modelling-hubs' }}
     runs-on: ubuntu-latest
     
     steps:
@@ -74,7 +74,7 @@ jobs:
 
         run: |
           pip install requests
-          python ./tools/.github/scripts/utils/workflow_webhook.py
+          python ./tools/code/ws_webhook.py
 
       - name: trace only
         run: |
