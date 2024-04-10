@@ -12,8 +12,14 @@ on:
       - '!**.MD'
 
 jobs:
-  validate-submission:
+
+  validate-submission_job:
+    
     runs-on: ubuntu-latest
+    
+    outputs:
+      changed_files:  ${{ steps.get_changed_files.outputs.all_changed_files }}
+    
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       PR_NUMBER: ${{ github.event.pull_request.number }}
@@ -53,12 +59,6 @@ jobs:
           packages: Infectious-Disease-Modeling-Hubs/hubValidations, any::sessioninfo
 
 
-      # - name: Install HubValidations
-      #   run: |
-      #     install.packages("remotes")
-      #     remotes::install_github("Infectious-Disease-Modeling-Hubs/hubValidations")
-      #   shell: Rscript {0}
-
       - name: Run validations
         env:
           PR_NUMBER: ${{ github.event.number }}
@@ -89,12 +89,6 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           number: ${{ github.event.pull_request.number }}
 
-      # Merge changes  
-      # ---------------------------    
-      # - uses: de-vri-es/setup-git-credentials@v2
-      #   with:
-      #     credentials: ${{ secrets.WF_PR_CREDENTIALS }}
-      
       - name: Merge the pull request
         id: merge_pr
         run: |
@@ -104,16 +98,11 @@ jobs:
           PR_URL: ${{ github.event.pull_request.html_url }}
           GH_TOKEN: ${{ github.token }}
 
-      - name: Save changes to artifact
-        env:
-          changed_files: ${{ steps.get_changed_files.outputs.all_changed_files }}
-        run: |
-          echo "{ \"pr-changes\" : \"$changed_files\" }" > pr_changes.json
-      
-      - name: Upload changes
-        uses: actions/upload-artifact@v2
-        with:
-          name: pr_changes
-          path: ./pr_changes.json
+  call-persisting-wf:
+    needs: validate-submission_job
+    uses: european-modelling-hubs/ari-forecast-hub/.github/workflows/persist_changes.yml@main
+    with:
+      changes-list: ${{ needs.validate-submission_job.outputs.changed_files }}
 
-      
+    secrets:
+      envPAT: ${{ secrets.GITHUB_TOKEN }} 
