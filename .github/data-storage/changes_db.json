@@ -1,1 +1,10 @@
-{}
+{
+    "ISI": [
+        {
+            "model": "EpiNowARI",
+            "changes": [
+                "model-output/ISI-EpiNowARI/2024-04-24-ISI-EpiNowARI.csv"
+            ]
+        }
+    ]
+}
