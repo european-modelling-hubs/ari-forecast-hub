@@ -11,6 +11,12 @@
             "changes": [
                 "model-output/ISI-AriABCaster/2024-04-24-ISI-AriABCaster.csv"
             ]
+        },
+        {
+            "model": "GenLogModelAri",
+            "changes": [
+                "model-output/ISI-GenLogModelAri/2024-04-24-ISI-GenLogModelAri.csv"
+            ]
         }
     ],
     "fjordhest": [
