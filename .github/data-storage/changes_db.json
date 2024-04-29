@@ -45,6 +45,18 @@
             "changes": [
                 "model-output/ECDC-norrsken_green/2024-05-01-ECDC-norrsken_green.csv"
             ]
+        },
+        {
+            "model": "ARI2MA",
+            "changes": [
+                "model-output/ECDC-ARI2MA/2024-05-01-ECDC-ARI2MA.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2024-05-01-ECDC-soca_simplex.csv"
+            ]
         }
     ],
     "fjordhest": [
