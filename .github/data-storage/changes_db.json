@@ -1,24 +1,4 @@
 {
-    "ISI": [
-        {
-            "model": "AriABCaster",
-            "changes": [
-                "model-output/ISI-AriABCaster/2024-05-01-ISI-AriABCaster.csv"
-            ]
-        },
-        {
-            "model": "GenLogModelAri",
-            "changes": [
-                "model-output/ISI-GenLogModelAri/2024-05-01-ISI-GenLogModelAri.csv"
-            ]
-        },
-        {
-            "model": "EpiNowARI",
-            "changes": [
-                "model-output/ISI-EpiNowARI/2024-05-01-ISI-EpiNowARI.csv"
-            ]
-        }
-    ],
     "model": [
         {
             "model": "output",
@@ -36,40 +16,6 @@
             "model": "norrsken_green",
             "changes": [
                 "model-output/ECDC-norrsken_green/2024-05-01-ECDC-norrsken_green.csv"
-            ]
-        }
-    ],
-    "ECDC": [
-        {
-            "model": "norrsken_blue",
-            "changes": [
-                "model-output/ECDC-norrsken_blue/2024-05-01-ECDC-norrsken_blue.csv"
-            ]
-        },
-        {
-            "model": "norrsken_green",
-            "changes": [
-                "model-output/ECDC-norrsken_green/2024-05-01-ECDC-norrsken_green.csv"
-            ]
-        },
-        {
-            "model": "ARI2MA",
-            "changes": [
-                "model-output/ECDC-ARI2MA/2024-05-01-ECDC-ARI2MA.csv"
-            ]
-        },
-        {
-            "model": "soca_simplex",
-            "changes": [
-                "model-output/ECDC-soca_simplex/2024-05-01-ECDC-soca_simplex.csv"
-            ]
-        }
-    ],
-    "fjordhest": [
-        {
-            "model": "ensemble",
-            "changes": [
-                "model-output/fjordhest-ensemble/2024-05-01-fjordhest-ensemble.csv"
             ]
         }
     ]
