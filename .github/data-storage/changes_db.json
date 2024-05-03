@@ -1,12 +1,6 @@
 {
     "model": [
         {
-            "model": "output",
-            "changes": [
-                "model-output/2024-04-24-ECDC-norrsken_blue.csv"
-            ]
-        },
-        {
             "model": "norrsken_blue",
             "changes": [
                 "model-output/ECDC-norrsken_blue/2024-05-01-ECDC-norrsken_blue.csv"
