@@ -1,8 +1,1 @@
-{
-    "ARI incidence": {
-        "changes": [
-            "target-data/ERVISS/snapshots/2024-05-03-ARI_incidence.csv",
-            "target-data/FluID/snapshots/2024-05-03-ARI_incidence.csv"
-        ]
-    }
-}
+{}
