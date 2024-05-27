@@ -1,23 +1,21 @@
-name: "ImportTruthErviss"
+name: "ImportTruthErviss_new"
 on:
 
   workflow_dispatch:
 
   # scheduled run every Friday at 19.00 (18.00 UTC)
-  # schedule:
-  #   - cron: '00 18 * * 5'
+  schedule:
+    - cron: '00 18 * * 5'
 
     
 jobs:
 
   import_truth_job:
     if: github.repository_owner == 'european-modelling-hubs'
-    
     runs-on: ubuntu-latest
-    
     outputs:
-      changed_files:  ${{ steps.import_truth.outputs.imported_files }}
-    
+      changed_files:  ${{ steps.import_truth.outputs.imported_files }} 
+
     steps:
 
     # Checkout the python tools repo
@@ -51,7 +49,7 @@ jobs:
     - name: Import Truth
       id: import_truth
       run: |
-        python ./repo/.github/scripts/import_truth.py
+        python ./tools/code/import_truth.py --hub_path ./repo --disease_name "ARI"
 
     - name: Commit data repo changes
       uses: EndBug/add-and-commit@v7
