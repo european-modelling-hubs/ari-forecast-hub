@@ -1,1 +1,7 @@
-{}
+{
+    "ARI incidence": {
+        "changes": [
+            "target-data/ERVISS/snapshots/2024-06-21-ARI_incidence.csv"
+        ]
+    }
+}
