@@ -1,1 +1,7 @@
-{}
+{
+    "ARI incidence": {
+        "changes": [
+            "target-data/FluID/snapshots/2024-06-28-ARI_incidence.csv"
+        ]
+    }
+}
