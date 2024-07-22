@@ -80,7 +80,7 @@ jobs:
       id: generate_scoring
       run: |
         # call R script from tools
-        Rscript ./tools/R-code/forecast_evaluation.R --hub_path "./repo" --truth_file_name "latest-ARI_incidence.csv" --subfolders "ERVISS"
+        Rscript ./tools/R-code/forecast_evaluation.R --hub_path "./repo" --truth_file_name "latest-ARI_incidence.csv" --subfolders "ERVISS,FluID"
 
     # Do the python manipulations and produce an output file (scoring_file)
     # ------------------------------------------------------------------------
